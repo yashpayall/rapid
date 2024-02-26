@@ -15,7 +15,9 @@ const AllcustomerActivemember = () => {
         </div>
         <div className="flex max-sm:flex-wrap gap-6 max-sm:gap-2 items-center justify-center max-w-[444px] w-full">
           <div className="max-w-[280px] max-sm:max-w-[200px] max-sm:h-[30px] px-2 w-full h-[48px] flex justify-center items-center rounded-lg border-[1px] border-[#B4B9C9] bg-white">
-            <SearchIcons />
+            <div>
+              <SearchIcons />
+            </div>
             <input
               type="search"
               placeholder="Search"
