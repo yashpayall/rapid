@@ -7,7 +7,7 @@ import Allcustomeraddclient from "./Allcustomeraddclient";
 const AllCustomer = () => {
   return (
     <>
-      <div>
+      <div className="">
         <div className="mt-[52px] mb-[32px]">
           <Allcustomeraddclient />
         </div>
@@ -16,13 +16,13 @@ const AllCustomer = () => {
             <AllcustomerActivemember />
           </div>
           <div className="overflow-x-auto scrollbar-hide">
-            <table className="w-[1244px] bg-white mx-auto">
+            <table className="max-w-[1244px] w-full bg-white mx-auto">
               <thead className="bg-white py-2">
                 <tr className=" flex h-[34px] items-center text-[#B4B9C9] font-Manrope text-[14px] border-b-[1px] border-[#B4B9C9]">
-                  <th className="text-left p-[8px_12px] w-[240px] font-medium leading-[24px] ">
+                  <th className="text-left p-[8px_12px] max-sm:w-[150px] w-[240px] font-medium leading-[24px] ">
                     Customer Name
                   </th>
-                  <th className="p-[8px_12px] w-[200px] text-left font-medium leading-[24px] ">
+                  <th className="p-[8px_12px] max-sm:w-[150px] w-[200px] text-left font-medium leading-[24px] ">
                     Company
                   </th>
                   <th className="text-left p-[8px_12px] text-[14px] w-[138px] font-medium leading-[24px] ">
@@ -50,10 +50,10 @@ const AllCustomer = () => {
                   <tr
                     key={index}
                     className="border-b border-[#E1E4ED] lg:gap-0 h-[49px] bg-white flex items-center">
-                    <td className="text-left p-[16px_12px] w-[240px] text-[#353E5C] font-Manrope text-[14px] leading-7 font-normal text-nowrap line-clamp-1">
+                    <td className="text-left p-[16px_12px] max-sm:w-[150px] w-[240px] text-[#353E5C] font-Manrope text-[14px] leading-7 font-normal text-nowrap line-clamp-1">
                       {item.name}
                     </td>
-                    <td className="text-left p-[16px_12px] w-[200px] text-white font-manrope text-[20px] font-medium">
+                    <td className="text-left p-[16px_12px] max-sm:w-[150px] w-[200px] text-white font-manrope text-[20px] font-medium">
                       <p className="text-[#353E5C] font-Manrope text-[14px] leading-7 font-normal">
                         {item.company}
                       </p>

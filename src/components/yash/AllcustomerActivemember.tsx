@@ -13,7 +13,7 @@ const AllcustomerActivemember = () => {
             Active Members
           </h1>
         </div>
-        <div className="flex gap-6 max-sm:gap-2 items-center justify-center max-w-[444px] w-full">
+        <div className="flex max-sm:flex-wrap gap-6 max-sm:gap-2 items-center justify-center max-w-[444px] w-full">
           <div className="max-w-[280px] max-sm:max-w-[200px] max-sm:h-[30px] px-2 w-full h-[48px] flex justify-center items-center gap-2 rounded-lg border-[1px] border-[#B4B9C9] bg-white">
             <SearchIcons />
             <input

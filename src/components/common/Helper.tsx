@@ -7,8 +7,59 @@ import {
   ProjectsIcons,
   ResoursesIcons,
   SettingIcons,
+  TableEditIcons,
 } from "./Icons";
-
+import Andrew from "../../assets/img/Andrew-card.png";
+import Andrew2 from "../../assets/img/Andrew-card2.png";
+import Andrew3 from "../../assets/img/Andrew-card3.png";
+import Andrew4 from "../../assets/img/Andrew-card4.png";
+import Andrew5 from "../../assets/img/Andrew-card5.png";
+import Andrew6 from "../../assets/img/Andrew-card6.png";
+import Andrew7 from "../../assets/img/Andrew-card7.png";
+import Andrew8 from "../../assets/img/Andrew-card8.png";
+import profile from "../../assets/img/profile.png";
+export const Resoursescard = [
+  {
+    img: Andrew,
+    heading: "How to: Shareholder Agreement",
+    decs: "This guide provides an overview on how to create a shareholder agreement to ensure proper management and protection of a company. This covers topics such as T & Cs and more.",
+  },
+  {
+    img: Andrew2,
+    heading: "How to: Find Good Angel Investors",
+    decs: "This guide provides an introduction to angel investors and how to find them.  It covers topics such as sources of angel investors, evaluating potential investors and developing a pitch to attract them.",
+  },
+  {
+    img: Andrew3,
+    heading: "How to Handle Business Stress",
+    decs: "This guide provides an overview on how to handle business stress. It covers topics such as managing deadlines, developing coping mechanisms, setting priorities and more.",
+  },
+  {
+    img: Andrew4,
+    heading: "350 Objects & Key Results for you",
+    decs: "This guide provides a comprehensive list of 350 objects and key results to help grow your business. It covers topics such as setting objectives, establishing metrics and tracking progress",
+  },
+  {
+    img: Andrew5,
+    heading: "How to: Subscription Agreement",
+    decs: "This guide provides an overview on how to create a subscription agreement. It covers topics such as terms and conditions, payment options, customer support and other matters.",
+  },
+  {
+    img: Andrew6,
+    heading: "101 Marketing Resources for you",
+    decs: "This guide provides a comprehensive list of 101 marketing resources to help grow your business. It covers topics such as online advertising, content marketing, email marketing and more.",
+  },
+  {
+    img: Andrew7,
+    heading: "How to: Monetize your products  ",
+    decs: "This guide provides an overview on how to monetize your products. It covers topics such as pricing strategies, customer segmentation and creating an effective monetization plan.",
+  },
+  {
+    img: Andrew8,
+    heading: "How to: Build a better community",
+    decs: "This guide provides an introduction to building a better community. It covers topics such as understanding your audience, leveraging social media, creating engaging content and more.",
+  },
+];
 export const CustomerRelation = [
   {
     icon: <DashbordIcons />,
@@ -165,5 +216,103 @@ export const tabelData = [
     bgcolor: "#FFECEF",
     width: "71px",
     emailicon: <EmailIcons />,
+  },
+];
+export const CrmaProjectsData = [
+  {
+    img: profile,
+    name: "475 Spruce Drive, Pittsburgh, PA 23592",
+    area: "100",
+    date: "Nov 14, 2021 07:00 AM",
+    price: "9600",
+    status: "IN  Progress",
+    editicon: <TableEditIcons />,
+  },
+  {
+    img: profile,
+    name: "475 Spruce Drive, Pittsburgh, PA 23592",
+    area: "100",
+    date: "Nov 14, 2021 07:00 AM",
+    price: "9600",
+    status: "Closed",
+    color: "#A565FF",
+    bgcolor: "#F4ECFF",
+    width: "64px",
+    editicon: <TableEditIcons />,
+  },
+  {
+    img: profile,
+    name: "475 Spruce Drive, Pittsburgh, PA 23592",
+    area: "100",
+    date: "Nov 14, 2021 07:00 AM",
+    price: "9600",
+    status: "IN  Progress",
+    editicon: <TableEditIcons />,
+  },
+  {
+    img: profile,
+    name: "475 Spruce Drive, Pittsburgh, PA 23592",
+    area: "100",
+    date: "Nov 14, 2021 07:00 AM",
+    price: "9600",
+    status: "Closed",
+    color: "#A565FF",
+    bgcolor: "#F4ECFF",
+    width: "64px",
+    editicon: <TableEditIcons />,
+  },
+  {
+    img: profile,
+    name: "475 Spruce Drive, Pittsburgh, PA 23592",
+    area: "100",
+    date: "Nov 14, 2021 07:00 AM",
+    price: "9600",
+    status: "IN  Progress",
+    editicon: <TableEditIcons />,
+  },
+  {
+    img: profile,
+    name: "475 Spruce Drive, Pittsburgh, PA 23592",
+    area: "100",
+    date: "Nov 14, 2021 07:00 AM",
+    price: "9600",
+    status: "IN  Progress",
+    editicon: <TableEditIcons />,
+  },
+  {
+    img: profile,
+    name: "475 Spruce Drive, Pittsburgh, PA 23592",
+    area: "100",
+    date: "Nov 14, 2021 07:00 AM",
+    price: "9600",
+    status: "IN  Progress",
+    editicon: <TableEditIcons />,
+  },
+  {
+    img: profile,
+    name: "475 Spruce Drive, Pittsburgh, PA 23592",
+    area: "100",
+    date: "Nov 14, 2021 07:00 AM",
+    price: "9600",
+    status: "IN  Progress",
+    editicon: <TableEditIcons />,
+  },
+  {
+    img: profile,
+    name: "475 Spruce Drive, Pittsburgh, PA 23592",
+    area: "100",
+    date: "Nov 14, 2021 07:00 AM",
+    price: "9600",
+    status: "IN  Progress",
+    editicon: <TableEditIcons />,
+  },
+  {
+    img: profile,
+    name: "475 Spruce Drive, Pittsburgh, PA 23592",
+    area: "100",
+    date: "Nov 14, 2021 07:00 AM",
+    price: "9600",
+    status: "IN  Progress",
+    editicon: <TableEditIcons />,
   },
 ];
