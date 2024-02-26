@@ -14,14 +14,14 @@ const AllcustomerActivemember = () => {
           </h1>
         </div>
         <div className="flex max-sm:flex-wrap gap-6 max-sm:gap-2 items-center justify-center max-w-[444px] w-full">
-          <div className="max-w-[280px] max-sm:max-w-[200px] max-sm:h-[30px] px-2 w-full h-[48px] flex justify-center items-center rounded-lg border-[1px] border-[#B4B9C9] bg-white">
+          <div className="max-w-[280px] max-sm:max-w-[200px] max-sm:h-[30px] px-2 w-full h-[48px] flex justify-center gap-2 items-center rounded-lg border-[1px] border-[#B4B9C9] bg-white">
             <div>
               <SearchIcons />
             </div>
             <input
               type="search"
               placeholder="Search"
-              className="outline-none max-w-[200px] w-full text-[16px] px-2 max-sm:text-[14px] font-normal placeholder:text-[#B4B9C9]"
+              className="outline-none max-w-[200px] w-full text-[16px] max-sm:text-[14px] font-normal placeholder:text-[#B4B9C9]"
             />
           </div>
           <div>
