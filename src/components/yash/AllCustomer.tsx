@@ -15,7 +15,7 @@ const AllCustomer = () => {
           <div>
             <AllcustomerActivemember />
           </div>
-          <div className="overflow-x-auto scrollbar-hide">
+          <div className="overflow-x-auto px-3 scrollbar-hide">
             <table className="max-w-[1244px] w-full bg-white mx-auto">
               <thead className="bg-white py-2">
                 <tr className=" flex h-[34px] items-center text-[#B4B9C9] font-Manrope text-[14px] border-b-[1px] border-[#B4B9C9]">
