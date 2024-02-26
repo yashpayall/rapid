@@ -21,7 +21,7 @@ const AllcustomerActivemember = () => {
             <input
               type="search"
               placeholder="Search"
-              className="outline-none text-[16px] px-2 max-sm:text-[14px] font-normal placeholder:text-[#B4B9C9]"
+              className="outline-none max-w-[200px] w-full text-[16px] px-2 max-sm:text-[14px] font-normal placeholder:text-[#B4B9C9]"
             />
           </div>
           <div>
